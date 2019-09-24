@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auksinis_pjuvis", "auksinis_pjuvis\auksinis_pjuvis.csproj", "{14458ED1-A63C-4DB1-BD80-1A538E6B33AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "niutono_metodas", "niutono_metodas\niutono_metodas.csproj", "{AD23D126-CC64-475C-837D-673C98B6F64F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{14458ED1-A63C-4DB1-BD80-1A538E6B33AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14458ED1-A63C-4DB1-BD80-1A538E6B33AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14458ED1-A63C-4DB1-BD80-1A538E6B33AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD23D126-CC64-475C-837D-673C98B6F64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD23D126-CC64-475C-837D-673C98B6F64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD23D126-CC64-475C-837D-673C98B6F64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD23D126-CC64-475C-837D-673C98B6F64F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
