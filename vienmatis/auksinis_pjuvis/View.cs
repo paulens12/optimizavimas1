@@ -17,18 +17,26 @@ namespace auksinis_pjuvis
             this.MyModel.Series.Add(new FunctionSeries(Common.F, 0, 10, 0.001, "generuojanti funkcija"));
             //this.MyModel.AddVerticalLine(2.245, "test");
 
-            Console.WriteLine(dalink(0, 10, Common.F, 0.0001, 1));
+            double minX = dalink(0, 10, Common.F, 0.0001, 1);
+            Console.WriteLine(minX);
+            Console.WriteLine(Common.F(minX));
         }
 
-        private double fibN = (Math.Sqrt(5) - 1) / 2;
+        private readonly double fibN = (Math.Sqrt(5) - 1) / 2;
 
         private double dalink(double xMin, double xMax, Func<double, double> f, double e, int step)
         {
             double l = xMax - xMin;
-            if (l < e)
-                return (xMin + xMax) / 2;
             double x1 = xMax - fibN * l;
             double x2 = xMin + fibN * l;
+
+            if (l < e)
+            {
+                Console.WriteLine("steps: " + step);
+                if (f(x1) < f(x2))
+                    return x1;
+                return x2;
+            }
 
             if (f(x2) < f(x1))
             {

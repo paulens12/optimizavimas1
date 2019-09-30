@@ -17,7 +17,9 @@ namespace niutono_metodas
             this.MyModel.Series.Add(new FunctionSeries(Common.F, 0, 10, 0.001, "generuojanti funkcija"));
             //this.MyModel.AddVerticalLine(2.245, "test");
 
-            Console.WriteLine(dalink(5, Common.Fprime1, Common.Fprime2, 0.0001, 1));
+            double minX = dalink(5, Common.Fprime1, Common.Fprime2, 0.0001, 1);
+            Console.WriteLine(minX);
+            Console.WriteLine(Common.F(minX));
         }
 
         private double dalink(double x, Func<double, double> f1, Func<double, double> f2, double e, int step)
@@ -28,6 +30,7 @@ namespace niutono_metodas
 
             if (Math.Abs(xNew - x) < e)
             {
+                Console.WriteLine("steps: " + step);
                 return xNew;
             }
 

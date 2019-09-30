@@ -17,17 +17,31 @@ namespace dalijimas_pusiau_wpf
             this.MyModel.Series.Add(new FunctionSeries(Common.F, 0, 10, 0.001, "generuojanti funkcija"));
             //this.MyModel.AddVerticalLine(2.245, "test");
 
-            Console.WriteLine(dalink(0, 10, Common.F, 0.0001, 1));
+            double minX = dalink(0, 10, Common.F, 0.0001, 1);
+            Console.WriteLine(minX);
+            Console.WriteLine(Common.F(minX));
         }
 
         private double dalink(double xMin, double xMax, Func<double, double> f, double e, int step)
         {
             double l = xMax - xMin;
             double xMid = (xMin + xMax) / 2;
-            if (l < e)
-                return xMid;
             double x1 = xMin + l / 4;
             double x2 = xMax - l / 4;
+
+            if (l < e)
+            {
+                Console.WriteLine("steps: " + step);
+                double fx1 = f(x1);
+                double fx2 = f(x2);
+                double fxm = f(xMid);
+                if (fx1 <= fx2 && fx1 <= fxm)
+                    return x1;
+                if (fx2 <= fx1 && fx2 <= fxm)
+                    return fx2;
+                return fxm;
+            }
+
             if (f(x1) < f(xMid))
             {
                 this.MyModel.AddVerticalLine(xMid, step.ToString());
