@@ -4,6 +4,7 @@
 //int sample(mglGraph *gr);
 
 int main() {
+    std::cout << "Hello, World!" << std::endl;
 //    mglGraph gr;
 //    gr.Alpha(true);
 //    gr.Light(true);
