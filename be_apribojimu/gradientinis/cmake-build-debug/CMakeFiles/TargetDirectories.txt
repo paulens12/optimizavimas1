@@ -1,0 +1,3 @@
+G:/programming/mif-4-1/optimizavimas/be_apribojimu/gradientinis/cmake-build-debug/CMakeFiles/gradientinis.dir
+G:/programming/mif-4-1/optimizavimas/be_apribojimu/gradientinis/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/programming/mif-4-1/optimizavimas/be_apribojimu/gradientinis/cmake-build-debug/CMakeFiles/rebuild_cache.dir

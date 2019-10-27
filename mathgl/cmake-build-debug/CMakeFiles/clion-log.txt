@@ -1,0 +1,70 @@
+"D:\Program Files\Jetbrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -Denable-double=ON -Denable-png=ON -Denable-zlib=ON -G "CodeBlocks - MinGW Makefiles" G:\programming\mif-4-1\optimizavimas\mathgl
+-- The C compiler identification is GNU 8.1.0
+-- The CXX compiler identification is GNU 8.1.0
+-- Check for working C compiler: D:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
+-- Check for working C compiler: D:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe
+-- Check for working CXX compiler: D:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Looking for sin
+-- Looking for sin - found
+-- Looking for memrchr
+-- Looking for memrchr - not found
+-- Check size of long
+-- Check size of long - done
+-- Performing Test MGL_HAVE_C99_COMPLEX
+-- Performing Test MGL_HAVE_C99_COMPLEX - Failed
+-- Performing Test MGL_HAVE_NAN_INF
+-- Performing Test MGL_HAVE_NAN_INF - Success
+-- Performing Test MGL_HAVE_ATTRIBUTE
+-- Performing Test MGL_HAVE_ATTRIBUTE - Success
+-- Performing Test MGL_HAVE_GETOPT
+-- Performing Test MGL_HAVE_GETOPT - Success
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found ZLIB: G:/programming/mif-4-1/optimizavimas/mathgl/lib (found version "1.2.3") 
+-- Could NOT find ZLIB (missing: ZLIB_INCLUDE_DIR) (found version "1.2.3")
+-- Found PNG: G:/programming/mif-4-1/optimizavimas/mathgl/lib  
+-- Found OpenGL: opengl32   
+Building of translation files was disabled, because xgettext, msgmerge, msgcat or msgfmt was not found. Current translations will be just coped.
+-- Failed to find Gettext libintl (missing: Intl_INCLUDE_DIR) 
+Gettext and translations was fully disabled, because libintl was not found.
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring done
+WARNING: Target "mgl" requests linking to directory "G:/programming/mif-4-1/optimizavimas/mathgl/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "mgl-static" requests linking to directory "G:/programming/mif-4-1/optimizavimas/mathgl/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "mgl.cgi" requests linking to directory "G:/programming/mif-4-1/optimizavimas/mathgl/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "mglconv" requests linking to directory "G:/programming/mif-4-1/optimizavimas/mathgl/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "mgl_example" requests linking to directory "G:/programming/mif-4-1/optimizavimas/mathgl/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "mgl" requests linking to directory "G:/programming/mif-4-1/optimizavimas/mathgl/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "mgl-static" requests linking to directory "G:/programming/mif-4-1/optimizavimas/mathgl/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "mglconv" requests linking to directory "G:/programming/mif-4-1/optimizavimas/mathgl/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "mgl.cgi" requests linking to directory "G:/programming/mif-4-1/optimizavimas/mathgl/lib".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: G:/programming/mif-4-1/optimizavimas/mathgl/cmake-build-debug
