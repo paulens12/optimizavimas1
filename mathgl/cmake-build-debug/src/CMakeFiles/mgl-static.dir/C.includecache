@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../include/mgl2/config.h
+
 ../include/mgl2/define.h
 mgl2/config.h
 ../include/mgl2/mgl2/config.h
@@ -42,6 +44,8 @@ complex
 complex.h
 -
 
+../include/mgl2/dllexport.h
+
 ../include/zconf.h
 windows.h
 -
@@ -59,8 +63,4 @@ zconf.h
 G:/programming/mif-4-1/optimizavimas/mathgl/src/c2mdual.c
 mgl2/define.h
 G:/programming/mif-4-1/optimizavimas/mathgl/src/mgl2/define.h
-
-include/mgl2/config.h
-
-include/mgl2/dllexport.h
 

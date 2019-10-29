@@ -1,4 +1,4 @@
-"D:\Program Files\Jetbrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -Denable-double=ON -Denable-png=ON -Denable-zlib=ON -G "CodeBlocks - MinGW Makefiles" G:\programming\mif-4-1\optimizavimas\mathgl
+"D:\Program Files\Jetbrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -Denable-double=ON -Denable-png=ON -Denable-zlib=ON -Denable-opengl=OFF -G "CodeBlocks - MinGW Makefiles" G:\programming\mif-4-1\optimizavimas\mathgl
 -- The C compiler identification is GNU 8.1.0
 -- The CXX compiler identification is GNU 8.1.0
 -- Check for working C compiler: D:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
@@ -50,7 +50,6 @@
 -- Found ZLIB: G:/programming/mif-4-1/optimizavimas/mathgl/lib (found version "1.2.3") 
 -- Could NOT find ZLIB (missing: ZLIB_INCLUDE_DIR) (found version "1.2.3")
 -- Found PNG: G:/programming/mif-4-1/optimizavimas/mathgl/lib  
--- Found OpenGL: opengl32   
 Building of translation files was disabled, because xgettext, msgmerge, msgcat or msgfmt was not found. Current translations will be just coped.
 -- Failed to find Gettext libintl (missing: Intl_INCLUDE_DIR) 
 Gettext and translations was fully disabled, because libintl was not found.

@@ -268,12 +268,6 @@ MathGL_INSTALL_INCLUDE_DIR:PATH=include
 //Installation directory for libraries
 MathGL_INSTALL_LIB_DIR:PATH=lib
 
-//OpenGL library for win32
-OPENGL_gl_LIBRARY:STRING=opengl32
-
-//GLU library for win32
-OPENGL_glu_LIBRARY:STRING=glu32
-
 //CXX compiler flags for OpenMP parallelization
 OpenMP_CXX_FLAGS:STRING=-fopenmp
 
@@ -381,7 +375,7 @@ enable-octave:BOOL=OFF
 enable-octave-install:BOOL=ON
 
 //Enable OpenGL support
-enable-opengl:BOOL=ON
+enable-opengl:BOOL=OFF
 
 //Enable OpenMP support
 enable-openmp:BOOL=ON
@@ -432,10 +426,10 @@ findmsgmerge:FILEPATH=findmsgmerge-NOTFOUND
 findxgettext:FILEPATH=findxgettext-NOTFOUND
 
 //Dependencies for the target
-mgl-static_LIB_DEPENDS:STATIC=general;opengl32;general;glu32;general;G:/programming/mif-4-1/optimizavimas/mathgl/lib;
+mgl-static_LIB_DEPENDS:STATIC=general;G:/programming/mif-4-1/optimizavimas/mathgl/lib;
 
 //Dependencies for the target
-mgl_LIB_DEPENDS:STATIC=general;opengl32;general;glu32;general;G:/programming/mif-4-1/optimizavimas/mathgl/lib;
+mgl_LIB_DEPENDS:STATIC=general;G:/programming/mif-4-1/optimizavimas/mathgl/lib;
 
 
 ########################
@@ -610,8 +604,6 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 COMPILER_HAS_DEPRECATED:INTERNAL=1
 //Test COMPILER_HAS_DEPRECATED_ATTR
 COMPILER_HAS_DEPRECATED_ATTR:INTERNAL=1
-//Details about finding OpenGL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][c ][v()]
 //Details about finding OpenMP
 FIND_PACKAGE_MESSAGE_DETAILS_OpenMP:INTERNAL=[TRUE][TRUE][c ][v4.5()]
 //Details about finding OpenMP_C
@@ -652,10 +644,6 @@ MGL_HAVE_GETOPT:INTERNAL=1
 MGL_HAVE_NAN_INF:INTERNAL=1
 //Have function sin
 MGL_SIN:INTERNAL=1
-//ADVANCED property for variable: OPENGL_gl_LIBRARY
-OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENGL_glu_LIBRARY
-OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE
 OpenMP_COMPILE_RESULT_CXX_fopenmp:INTERNAL=TRUE
 //Result of TRY_COMPILE

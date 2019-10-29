@@ -1148,36 +1148,6 @@ obj.cpp.s:
 	cd /d G:\programming\mif-4-1\optimizavimas\mathgl\cmake-build-debug && $(MAKE) -f src\CMakeFiles\mgl-static.dir\build.make src/CMakeFiles/mgl-static.dir/obj.cpp.s
 .PHONY : obj.cpp.s
 
-opengl.obj: opengl.cpp.obj
-
-.PHONY : opengl.obj
-
-# target to build an object file
-opengl.cpp.obj:
-	cd /d G:\programming\mif-4-1\optimizavimas\mathgl\cmake-build-debug && $(MAKE) -f src\CMakeFiles\mgl.dir\build.make src/CMakeFiles/mgl.dir/opengl.cpp.obj
-	cd /d G:\programming\mif-4-1\optimizavimas\mathgl\cmake-build-debug && $(MAKE) -f src\CMakeFiles\mgl-static.dir\build.make src/CMakeFiles/mgl-static.dir/opengl.cpp.obj
-.PHONY : opengl.cpp.obj
-
-opengl.i: opengl.cpp.i
-
-.PHONY : opengl.i
-
-# target to preprocess a source file
-opengl.cpp.i:
-	cd /d G:\programming\mif-4-1\optimizavimas\mathgl\cmake-build-debug && $(MAKE) -f src\CMakeFiles\mgl.dir\build.make src/CMakeFiles/mgl.dir/opengl.cpp.i
-	cd /d G:\programming\mif-4-1\optimizavimas\mathgl\cmake-build-debug && $(MAKE) -f src\CMakeFiles\mgl-static.dir\build.make src/CMakeFiles/mgl-static.dir/opengl.cpp.i
-.PHONY : opengl.cpp.i
-
-opengl.s: opengl.cpp.s
-
-.PHONY : opengl.s
-
-# target to generate assembly for a file
-opengl.cpp.s:
-	cd /d G:\programming\mif-4-1\optimizavimas\mathgl\cmake-build-debug && $(MAKE) -f src\CMakeFiles\mgl.dir\build.make src/CMakeFiles/mgl.dir/opengl.cpp.s
-	cd /d G:\programming\mif-4-1\optimizavimas\mathgl\cmake-build-debug && $(MAKE) -f src\CMakeFiles\mgl-static.dir\build.make src/CMakeFiles/mgl-static.dir/opengl.cpp.s
-.PHONY : opengl.cpp.s
-
 other.obj: other.cpp.obj
 
 .PHONY : other.obj
@@ -1798,9 +1768,6 @@ help:
 	@echo ... obj.obj
 	@echo ... obj.i
 	@echo ... obj.s
-	@echo ... opengl.obj
-	@echo ... opengl.i
-	@echo ... opengl.s
 	@echo ... other.obj
 	@echo ... other.i
 	@echo ... other.s

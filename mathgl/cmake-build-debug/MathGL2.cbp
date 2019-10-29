@@ -523,10 +523,6 @@
 			<Option target="mgl"/>
 			<Option target="mgl-static"/>
 		</Unit>
-		<Unit filename="G:/programming/mif-4-1/optimizavimas/mathgl/include/mgl2/opengl.h">
-			<Option target="mgl"/>
-			<Option target="mgl-static"/>
-		</Unit>
 		<Unit filename="G:/programming/mif-4-1/optimizavimas/mathgl/include/mgl2/other.h">
 			<Option target="mgl"/>
 			<Option target="mgl-static"/>
@@ -700,10 +696,6 @@
 			<Option target="mgl-static"/>
 		</Unit>
 		<Unit filename="G:/programming/mif-4-1/optimizavimas/mathgl/src/obj.cpp">
-			<Option target="mgl"/>
-			<Option target="mgl-static"/>
-		</Unit>
-		<Unit filename="G:/programming/mif-4-1/optimizavimas/mathgl/src/opengl.cpp">
 			<Option target="mgl"/>
 			<Option target="mgl-static"/>
 		</Unit>

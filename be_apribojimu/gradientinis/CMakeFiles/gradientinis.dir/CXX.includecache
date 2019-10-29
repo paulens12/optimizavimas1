@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/g/programming/mif-4-1/optimizavimas/be_apribojimu/gradientinis/main.cpp
+iostream
+-
+mgl2/mgl.h
+-
+

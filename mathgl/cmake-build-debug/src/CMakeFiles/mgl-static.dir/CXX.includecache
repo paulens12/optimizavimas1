@@ -40,6 +40,8 @@ mgl2/canvas.h
 mgl2/wnd.h
 ../include/mgl2/mgl2/wnd.h
 
+../include/mgl2/config.h
+
 ../include/mgl2/cont.h
 mgl2/abstract.h
 ../include/mgl2/mgl2/abstract.h
@@ -114,6 +116,8 @@ complex
 complex.h
 -
 
+../include/mgl2/dllexport.h
+
 ../include/mgl2/eval.h
 mgl2/abstract.h
 ../include/mgl2/mgl2/abstract.h
@@ -171,10 +175,6 @@ mgl2/canvas_cf.h
 -
 mgl2/addon.h
 -
-
-../include/mgl2/opengl.h
-mgl2/canvas.h
-../include/mgl2/mgl2/canvas.h
 
 ../include/mgl2/other.h
 mgl2/abstract.h
@@ -752,20 +752,6 @@ map
 iostream
 -
 
-G:/programming/mif-4-1/optimizavimas/mathgl/src/opengl.cpp
-windows.h
--
-OpenGL/gl.h
--
-GL/gl.h
--
-mgl2/opengl.h
-G:/programming/mif-4-1/optimizavimas/mathgl/src/mgl2/opengl.h
-mgl2/mgl_cf.h
-G:/programming/mif-4-1/optimizavimas/mathgl/src/mgl2/mgl_cf.h
-algorithm
--
-
 G:/programming/mif-4-1/optimizavimas/mathgl/src/other.cpp
 mgl2/other.h
 G:/programming/mif-4-1/optimizavimas/mathgl/src/mgl2/other.h
@@ -1107,8 +1093,4 @@ G:/programming/mif-4-1/optimizavimas/mathgl/src/mgl2/base.h
 G:/programming/mif-4-1/optimizavimas/mathgl/src/window.cpp
 mgl2/canvas_wnd.h
 G:/programming/mif-4-1/optimizavimas/mathgl/src/mgl2/canvas_wnd.h
-
-include/mgl2/config.h
-
-include/mgl2/dllexport.h
 

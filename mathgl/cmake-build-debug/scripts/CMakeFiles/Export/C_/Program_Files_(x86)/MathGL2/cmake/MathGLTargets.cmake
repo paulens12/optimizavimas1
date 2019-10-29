@@ -48,7 +48,7 @@ set(_IMPORT_PREFIX "C:/Program Files (x86)/MathGL2")
 add_library(mgl SHARED IMPORTED)
 
 set_target_properties(mgl PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opengl32;glu32;G:/programming/mif-4-1/optimizavimas/mathgl/lib;Threads::Threads"
+  INTERFACE_LINK_LIBRARIES "G:/programming/mif-4-1/optimizavimas/mathgl/lib;Threads::Threads"
 )
 
 # Create imported target mgl-static
@@ -56,7 +56,7 @@ add_library(mgl-static STATIC IMPORTED)
 
 set_target_properties(mgl-static PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "MGL_STATIC_DEFINE"
-  INTERFACE_LINK_LIBRARIES "opengl32;glu32;G:/programming/mif-4-1/optimizavimas/mathgl/lib;Threads::Threads"
+  INTERFACE_LINK_LIBRARIES "G:/programming/mif-4-1/optimizavimas/mathgl/lib;Threads::Threads"
 )
 
 # Create imported target mgltask

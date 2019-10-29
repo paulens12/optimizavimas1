@@ -54,7 +54,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "G:/programming/mif-4-1/optimizavimas/mathgl/src/font.cpp" "G:/programming/mif-4-1/optimizavimas/mathgl/cmake-build-debug/src/CMakeFiles/mgl-static.dir/font.cpp.obj"
   "G:/programming/mif-4-1/optimizavimas/mathgl/src/fractal.cpp" "G:/programming/mif-4-1/optimizavimas/mathgl/cmake-build-debug/src/CMakeFiles/mgl-static.dir/fractal.cpp.obj"
   "G:/programming/mif-4-1/optimizavimas/mathgl/src/obj.cpp" "G:/programming/mif-4-1/optimizavimas/mathgl/cmake-build-debug/src/CMakeFiles/mgl-static.dir/obj.cpp.obj"
-  "G:/programming/mif-4-1/optimizavimas/mathgl/src/opengl.cpp" "G:/programming/mif-4-1/optimizavimas/mathgl/cmake-build-debug/src/CMakeFiles/mgl-static.dir/opengl.cpp.obj"
   "G:/programming/mif-4-1/optimizavimas/mathgl/src/other.cpp" "G:/programming/mif-4-1/optimizavimas/mathgl/cmake-build-debug/src/CMakeFiles/mgl-static.dir/other.cpp.obj"
   "G:/programming/mif-4-1/optimizavimas/mathgl/src/parser.cpp" "G:/programming/mif-4-1/optimizavimas/mathgl/cmake-build-debug/src/CMakeFiles/mgl-static.dir/parser.cpp.obj"
   "G:/programming/mif-4-1/optimizavimas/mathgl/src/pde.cpp" "G:/programming/mif-4-1/optimizavimas/mathgl/cmake-build-debug/src/CMakeFiles/mgl-static.dir/pde.cpp.obj"

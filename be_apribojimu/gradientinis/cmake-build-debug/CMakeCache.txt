@@ -238,9 +238,6 @@ CMAKE_STRIP:FILEPATH=D:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Path to a library.
-MATHGL_LIB:FILEPATH=G:/programming/mif-4-1/optimizavimas/mathgl/cmake-build-debug/src/libmgl.dll.a
-
 //Value Computed by CMake
 gradientinis_BINARY_DIR:STATIC=G:/programming/mif-4-1/optimizavimas/be_apribojimu/gradientinis/cmake-build-debug
 

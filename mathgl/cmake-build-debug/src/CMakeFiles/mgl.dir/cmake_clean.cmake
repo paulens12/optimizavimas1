@@ -31,7 +31,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/mgl.dir/font.cpp.obj"
   "CMakeFiles/mgl.dir/fractal.cpp.obj"
   "CMakeFiles/mgl.dir/obj.cpp.obj"
-  "CMakeFiles/mgl.dir/opengl.cpp.obj"
   "CMakeFiles/mgl.dir/other.cpp.obj"
   "CMakeFiles/mgl.dir/parser.cpp.obj"
   "CMakeFiles/mgl.dir/pde.cpp.obj"

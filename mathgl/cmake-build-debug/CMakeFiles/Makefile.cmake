@@ -105,7 +105,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Program Files/Jetbrains/CLion 2019.2.4/bin/cmake/win/share/cmake-3.15/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "D:/Program Files/Jetbrains/CLion 2019.2.4/bin/cmake/win/share/cmake-3.15/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "D:/Program Files/Jetbrains/CLion 2019.2.4/bin/cmake/win/share/cmake-3.15/Modules/FindIntl.cmake"
-  "D:/Program Files/Jetbrains/CLion 2019.2.4/bin/cmake/win/share/cmake-3.15/Modules/FindOpenGL.cmake"
   "D:/Program Files/Jetbrains/CLion 2019.2.4/bin/cmake/win/share/cmake-3.15/Modules/FindOpenMP.cmake"
   "D:/Program Files/Jetbrains/CLion 2019.2.4/bin/cmake/win/share/cmake-3.15/Modules/FindPNG.cmake"
   "D:/Program Files/Jetbrains/CLion 2019.2.4/bin/cmake/win/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake"

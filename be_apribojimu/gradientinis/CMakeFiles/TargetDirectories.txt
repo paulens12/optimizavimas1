@@ -1,0 +1,3 @@
+/mnt/g/programming/mif-4-1/optimizavimas/be_apribojimu/gradientinis/CMakeFiles/rebuild_cache.dir
+/mnt/g/programming/mif-4-1/optimizavimas/be_apribojimu/gradientinis/CMakeFiles/gradientinis.dir
+/mnt/g/programming/mif-4-1/optimizavimas/be_apribojimu/gradientinis/CMakeFiles/edit_cache.dir

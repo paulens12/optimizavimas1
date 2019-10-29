@@ -57,7 +57,6 @@ include CMakeFiles/gradientinis.dir/progress.make
 include CMakeFiles/gradientinis.dir/flags.make
 
 CMakeFiles/gradientinis.dir/main.cpp.obj: CMakeFiles/gradientinis.dir/flags.make
-CMakeFiles/gradientinis.dir/main.cpp.obj: CMakeFiles/gradientinis.dir/includes_CXX.rsp
 CMakeFiles/gradientinis.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\programming\mif-4-1\optimizavimas\be_apribojimu\gradientinis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gradientinis.dir/main.cpp.obj"
 	D:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gradientinis.dir\main.cpp.obj -c G:\programming\mif-4-1\optimizavimas\be_apribojimu\gradientinis\main.cpp
@@ -79,7 +78,6 @@ gradientinis_EXTERNAL_OBJECTS =
 
 gradientinis.exe: CMakeFiles/gradientinis.dir/main.cpp.obj
 gradientinis.exe: CMakeFiles/gradientinis.dir/build.make
-gradientinis.exe: G:/programming/mif-4-1/optimizavimas/mathgl/cmake-build-debug/src/libmgl.dll.a
 gradientinis.exe: CMakeFiles/gradientinis.dir/linklibs.rsp
 gradientinis.exe: CMakeFiles/gradientinis.dir/objects1.rsp
 gradientinis.exe: CMakeFiles/gradientinis.dir/link.txt
