@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auksinis_pjuvis", "auksinis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "niutono_metodas", "niutono_metodas\niutono_metodas.csproj", "{AD23D126-CC64-475C-837D-673C98B6F64F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tiesinis", "tiesinis\tiesinis.csproj", "{AEA9C8BE-4943-4549-BE45-4871DC46A1B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AD23D126-CC64-475C-837D-673C98B6F64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD23D126-CC64-475C-837D-673C98B6F64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD23D126-CC64-475C-837D-673C98B6F64F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA9C8BE-4943-4549-BE45-4871DC46A1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA9C8BE-4943-4549-BE45-4871DC46A1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA9C8BE-4943-4549-BE45-4871DC46A1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA9C8BE-4943-4549-BE45-4871DC46A1B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
